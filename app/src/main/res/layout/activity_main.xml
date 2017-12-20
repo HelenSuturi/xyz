@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.xyz.MainActivity"
+    android:background="#fffdf1"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo2"
+        android:id="@+id/imageView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="19dp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OFERTA DE BIENES RAICES"
+        android:textColor="#011633"
+        android:textAlignment="center"
+        android:textSize="20dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="XYZ"
+        android:textColor="#011633"
+        android:textSize="25dp"
+        android:textAlignment="center"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="13dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="USUARIOs"
+        android:id="@+id/busuario"
+        android:background="#011633"
+        android:textColor="#fffdf1"
+
+        android:layout_marginStart="26dp"
+        android:layout_alignBaseline="@+id/bagente"
+        android:layout_alignBottom="@+id/bagente"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AGENTES"
+        android:id="@+id/bagente"
+        android:background="#011633"
+        android:textColor="#fffdf1"
+
+        android:layout_marginEnd="43dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="71dp" />
+
+</RelativeLayout>

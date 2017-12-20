@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.xyz.detalle">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUSQUEDA POR DETALLES"
+        android:textColor="#011633"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="13dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/textView4" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad de habitaciones"
+        android:textColor="#011633"
+        android:layout_marginTop="35dp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"></TextView>
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/hab"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignStart="@+id/ano" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Año de construccion"
+        android:textColor="#011633"
+        android:layout_marginTop="26dp"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/hab"
+        android:layout_alignStart="@+id/textView5" />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ano"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignStart="@+id/ban" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantidad de baños"
+        android:textColor="#011633"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/ano"
+        android:layout_alignStart="@+id/textView6" />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/ban"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignStart="@+id/editText" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Superficie"
+        android:textColor="#011633"
+        android:layout_marginTop="29dp"
+        android:id="@+id/textView8"
+        android:layout_below="@+id/ban"
+        android:layout_alignStart="@+id/textView7" />
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/editText"
+        android:layout_alignBaseline="@+id/textView8"
+        android:layout_alignBottom="@+id/textView8"
+        android:layout_toEndOf="@+id/buscar" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="m2"
+        android:textColor="#011633"
+        android:layout_alignBaseline="@+id/editText"
+        android:layout_alignBottom="@+id/editText"
+        android:layout_toEndOf="@+id/editText"
+        android:layout_marginStart="12dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BUSCAR"
+        android:background="#011633"
+        android:textColor="#fcfaec"
+        android:layout_marginBottom="81dp"
+        android:id="@+id/buscar"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/textView7" />
+
+</RelativeLayout>

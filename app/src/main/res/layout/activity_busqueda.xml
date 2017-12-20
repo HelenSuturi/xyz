@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hp.xyz.busqueda"
+    android:background="#fffdf1"
+    >
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="116dp"
+        android:background="#011633"
+        android:text="TIPO"
+        android:textAlignment="center"
+        android:textColor="#fcfaec"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="134dp"
+        android:id="@+id/tipo" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#011633"
+        android:textColor="#fcfaec"
+        android:text="DETALLE"
+        android:layout_below="@+id/tipo"
+        android:layout_alignStart="@+id/tipo"
+        android:layout_marginTop="42dp"
+        android:id="@+id/detalle"
+
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#011633"
+        android:textColor="#fcfaec"
+        android:text="PRECIO"
+        android:layout_below="@+id/detalle"
+        android:layout_alignStart="@+id/detalle"
+        android:layout_marginTop="48dp"
+        android:id="@+id/precio"
+        />
+
+</RelativeLayout>
